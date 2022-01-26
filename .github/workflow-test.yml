@@ -1,0 +1,2 @@
+- name: Indy Notification Action
+  uses: geored/indy-action@v6

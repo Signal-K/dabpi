@@ -34,3 +34,6 @@ npm install chalk clear clui figlet inquirer minimist configstore @octokit/rest 
 # To Do
 Add this to glitch.com (and then Keybase through submodule)
 Update `package.json` with our custom configurations
+
+# External Tools
+We're using [Curlconverter](https://curlconverter.com/#python) to get information from the [Lootlocker API](https://ref.lootlocker.io/game-api/#list-files);

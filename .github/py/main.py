@@ -1,5 +1,6 @@
 import pygame, sys
 from settings import *
+from level import Level
 # from debug import debug
 
 class Game:
@@ -10,6 +11,9 @@ class Game:
         pygame.display.set_caption("Star Sailors Minigame")
         self.clock = pygame.time.Clock()
 
+        # Level setup
+        self.level = Level()
+
     def run(self):
         while True:
             for event in pygame.event.get():
@@ -18,6 +22,7 @@ class Game:
                     sys.exit()
 
             self.screen.fill('black')
+            self.level.run()
             pygame.display.update()
             self.clock.tick(FPS)
 

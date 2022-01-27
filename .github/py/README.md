@@ -1,0 +1,1 @@
+Starting construction of the Python API components by creating minigames with Python (like what we're doing with JS>>Phaser.js) and connecting it to our API for multiplayer support, server storage, and user accounts (linking in with their LootLocker & Moralis data)

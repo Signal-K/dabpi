@@ -1,3 +1,8 @@
+# Signal-K/Dabpi
+## Contract branch
+This branch will be containing the base structure around interacting with a smart contract (starting on Rinkeby test net) using our own REST API
+After finishing this I'll move it back to the `main` or `unity-lootlocker` branches so we can then continue integration with the rest of the API. We'll then also integrate this with the game components & contracts we'll store on the blockchain directly, as well as with the Panoptes API.
+
 # Dependencies
 Install the required node packages by entering the command `npm install`, or install the packages manually:
 

@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "ethers": "^5.5.4",
-    "express": "^4.17.2",
-    "now": "^21.0.1"
+    "dapp-scratch": "^0.0.9"
   }
 }

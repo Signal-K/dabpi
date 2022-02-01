@@ -1,0 +1,3 @@
+[submodule "unity/lootlocker-sdk"]
+	path = unity/lootlocker-sdk
+	url = https://github.com/LootLocker/unity-sdk
